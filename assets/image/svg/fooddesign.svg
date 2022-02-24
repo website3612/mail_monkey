@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90.967" height="92.716" viewBox="0 0 90.967 92.716">
+  <defs>
+    <filter id="fooddesign" x="0" y="0" width="90.967" height="92.716" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#fooddesign)">
+    <path id="fooddesign-2" data-name="fooddesign" d="M35,0C52.5,0,78.75,45.281,70,60.375s-61.25,15.094-70,0S17.5,0,35,0Z" transform="translate(81.94 9.99) rotate(91)" fill="#fff"/>
+  </g>
+</svg>
